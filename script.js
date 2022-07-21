@@ -49,25 +49,25 @@ spin(yellowBowl,imgYellowBowl)
 const yellowOrderBackground = '#FEAC00'
 const shadowYellow = 'shadowYellow'
 const yellowBody = '#FDF3D8'
-var titleYellow = '/assets/titleYellow.png'
-const imgNextYellow = '/assets/yellowBowl.svg'
-var backgroundFlowerYellow ='/assets/backgroundFlowerYellow.png'
+var titleYellow = 'assets/titleYellow.png'
+const imgNextYellow = 'assets/yellowBowl.svg'
+var backgroundFlowerYellow ='assets/backgroundFlowerYellow.png'
 
 
 const greenOrderBackground = '#889F34'
 const shadowGreen = 'shadowGreen'
-var titleGreen = '/assets/titleGreen.png'
+var titleGreen = 'assets/titleGreen.png'
 const greenBody = '#E2FBC4'
-const imgNextGreen = '/assets/greenBowl.svg'
-var backgroundFlowerGreen ='/assets/backgroundFlowerGreen.svg'
+const imgNextGreen = 'assets/greenBowl.svg'
+var backgroundFlowerGreen ='assets/backgroundFlowerGreen.svg'
 
 
 const blueOrderBackground = '#3168AA'
 const shadowBlue = 'shadowBlue'
-var titleBlue = '/assets/titleBlue.png'
+var titleBlue = 'assets/titleBlue.png'
 const blueBody = '#CEDBEB'
-const imgNextBlue = '/assets/blueBowl.svg'
-var backgroundFlowerBlue = '/assets/backgroundFlowerBlue.svg'
+const imgNextBlue = 'assets/blueBowl.svg'
+var backgroundFlowerBlue = 'assets/backgroundFlowerBlue.svg'
 
 var backgroundFlower = document.querySelector('.backgroundFlower')
 var spanAlert = document.querySelector('#spanAlert')
