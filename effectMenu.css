@@ -1,0 +1,63 @@
+.nav {
+    width: 30%;
+  }
+  
+  .nav a {
+    color: #161E29;
+    text-decoration: none;
+    font-size: 1.3em;
+    -webkit-transition: all 0.2s ease-in-out;
+    margin-right: 8%;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .nav a:hover {
+    color: #DD2D50;
+  }
+  
+  .nav .dot {
+    width: 6px;
+    height: 6px;
+    background: #DD2D50;
+    border-radius: 50%;
+    opacity: 0;
+    -webkit-transform: translateX(30px);
+    transform: translateX(30px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    display: inherit;
+    justify-content: inherit;
+  }
+  
+  .nav a:nth-child(1):hover ~ .dot {
+    -webkit-transform: translateX(30px);
+    transform: translateX(30px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+  }
+  
+  .nav a:nth-child(2):hover ~ .dot {
+    -webkit-transform: translateX(150px);
+    transform: translateX(150px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+  }
+  
+  .nav a:nth-child(3):hover ~ .dot {
+    -webkit-transform: translateX(290px);
+    transform: translateX(290px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+  }
+  
+  .nav a:nth-child(4):hover ~ .dot {
+    -webkit-transform: translateX(415px);
+    transform: translateX(415px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+  }
+  
