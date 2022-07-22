@@ -1,5 +1,7 @@
 .nav {
-    width: 30%;
+    white-space: nowrap;
+    margin-right: 2vw;
+    min-width: max-content;
   }
   
   .nav a {
@@ -8,6 +10,7 @@
     font-size: 1.3em;
     -webkit-transition: all 0.2s ease-in-out;
     margin-right: 8%;
+     white-space: nowrap;
     transition: all 0.2s ease-in-out;
   }
   
