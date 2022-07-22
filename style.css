@@ -231,7 +231,7 @@ align-self: flex-end;
 
 .shadowEffect {
     height: 30%;
-    width: 62%;
+    width: 45%;
     filter: blur(24px) !important;
     margin-left: 3%;
 }
