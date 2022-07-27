@@ -1,7 +1,5 @@
 .nav {
-    white-space: nowrap;
-    margin-right: 2vw;
-    min-width: max-content;
+    widht: 550px;
   }
   
   .nav a {
