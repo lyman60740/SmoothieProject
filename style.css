@@ -237,9 +237,10 @@ align-self: flex-end;
 .shadowEffect {
     height: 18%;
     width: 100%;
-    filter: blur(24px) !important;
+    filter: blur(3px) !important;
     margin-left: 3%;
     z-index: 0;
+    margin-top: -15%;
 }
 .scaleEffectUp {
     transform: scale(0.9) ;
