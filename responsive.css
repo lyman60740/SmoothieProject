@@ -1,11 +1,29 @@
-@media  (min-width: 1320px){
+@media (max-width: 1160px) {
     
-.bowls {
-    margin-top: -2%;
-    
-}
-.blueBowl:hover, .greenBowl:hover, .yellowBowl:hover {
-       
-}
+    .bowl {
+        margin-top: -2%;
+        padding: 20px;
+        width: 400px;
+        height: 400px;
+        
+    }
+    .shadowEffect {
+        width: 200px;
+    }
+    .rightMain {
+        margin-top: 16%;
+    }
+    .benefits {
+        margin-left: 50%;
+    }
+    .fruits {
+        display: none;
+    }
 
+}
+@media (min-width: 1250px) {
+
+    .bowls {
+        margin-top: -2%;
+    }
 }
