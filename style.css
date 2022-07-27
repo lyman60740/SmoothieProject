@@ -240,7 +240,7 @@ align-self: flex-end;
     filter: blur(10px) !important;
     margin-left: 3%;
     z-index: 0;
-    margin-top: -15%;
+    margin-top: -8%;
 }
 .scaleEffectUp {
     transform: scale(0.9) ;
