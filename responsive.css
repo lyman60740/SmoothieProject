@@ -1,4 +1,4 @@
-@media (max-width: 1160px) {
+@media (max-width: 1160px){
     
     .bowl {
         margin-top: -2%;
@@ -25,5 +25,18 @@
 
     .bowls {
         margin-top: -2%;
+    }
+}
+@media (max-height: 670px) {
+
+    .bowl {
+        height: 300px;
+    }
+    .presentation {
+        margin-top: 33vh;
+    }
+    #orderNow{
+        padding: 13px;
+        font-size: 1rem;
     }
 }
