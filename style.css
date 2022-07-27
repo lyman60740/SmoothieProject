@@ -140,8 +140,6 @@ a:hover {
     width: 75%;
     height: 50%;
     z-index: 4;
-    display: flex;
-
 }
 .exit {
  width: 20px;
@@ -388,6 +386,7 @@ align-self: flex-end;
 }
 
 .opacityUp {
+    display: flex;
     animation: opacityEffectUp 900ms cubic-bezier(0.4, 0, 0.2, 1) forwards;
 }
 @keyframes opacityEffectUp {
