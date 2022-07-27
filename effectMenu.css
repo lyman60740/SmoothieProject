@@ -1,5 +1,5 @@
 .nav {
-    widht: 550px;
+    width: 550px;
     white-space: nowrap;
     margin-right: 2vw;
   }
@@ -49,16 +49,16 @@
   }
   
    .nav a:nth-child(3):hover ~ .dot {
-    -webkit-transform: translateX(263px);
-    transform: translateX(263px);
+    -webkit-transform: translateX(295px);
+    transform: translateX(295px);
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
     opacity: 1;
   }
   
   .nav a:nth-child(4):hover ~ .dot {
-    -webkit-transform: translateX(375px);
-    transform: translateX(375px);
+    -webkit-transform: translateX(415px);
+    transform: translateX(415px);
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
     opacity: 1;
