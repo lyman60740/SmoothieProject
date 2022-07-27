@@ -48,17 +48,17 @@
     opacity: 1;
   }
   
-  .nav a:nth-child(3):hover ~ .dot {
-    -webkit-transform: translateX(290px);
-    transform: translateX(290px);
+   .nav a:nth-child(3):hover ~ .dot {
+    -webkit-transform: translateX(270px);
+    transform: translateX(270px);
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
     opacity: 1;
   }
   
   .nav a:nth-child(4):hover ~ .dot {
-    -webkit-transform: translateX(415px);
-    transform: translateX(415px);
+    -webkit-transform: translateX(385px);
+    transform: translateX(385px);
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
     opacity: 1;
